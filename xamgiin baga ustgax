@@ -1,0 +1,4 @@
+n = [1,5,-9,12,33,65,99]
+baga = n.index(min(n))
+del n[baga]
+print(n)
