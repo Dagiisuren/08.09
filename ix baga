@@ -1,0 +1,5 @@
+n = [1,5,-9,12,33,65,99]
+ih = n.index(max(n))
+baga = n.index(min(n))
+n[ih],n[baga] = min(n),max(n)
+print(n)
