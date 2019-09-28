@@ -1,0 +1,16 @@
+n = [
+    ['bat','bold','od'],
+    ['Delger','Khangai','Suh'],
+    ['Tulga','Jawzaa','Suunaa']
+]
+t = 0
+for i in n:
+    ix = 0
+    for j in i:
+        if len(j) > ix :
+             ix = len(j)
+        print(ix)
+    if ix > t:
+        t = ix
+        k = i
+print(t,k)
